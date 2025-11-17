@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-%% [PR'2025] A Dual Stage Focus Measure for Shape from Focus - Official Implementation
+%% [Pattern Recognition 2026] A Dual-Stage Focus Measure for Vector-Valued Images in Shape from Focus - Official Implementation
 
 
 addpath(genpath('Datasets'));
