@@ -33,11 +33,11 @@ function wfv = WeightedFV(fv)
 
     %% Consensus Based Selection
     
-    % Finding depth for all 15 vectors 
+    % Finding depth 
     F_dir_Depth_all = zeros(a,b,d);
     F_dir_Depth_all(:,:,:) = DepthMap(fv(:,:,:,:));   
 
-    %Finding Mode depth from 15 directional vectors
+    %Finding Mode depth from directional vectors
     Mode_Depth_all = zeros(a,b); Pix_Dep_all = zeros(d,1);
     for x=1:1:a
         for y=1:1:b
